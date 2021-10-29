@@ -12,7 +12,7 @@ namespace TravelCat2021.Services
     public async Task<List<string>> Get()
     {
       //隨便亂打
-      return new List<string> { "第一則", "第二則","第三則" };
+      return new List<string> { "第一則", "第二則","第三則" ,"第三則"};
     }
 
     public async Task<HttpResponseMessage> Delete() 
